@@ -4,12 +4,11 @@
     "module": "CommonJS",
     "lib": ["ES2020"],
     "strict": true,
-    "noImplicitAny": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "dist"
   },
-  "include": ["bin", "lib"],
+  "include": ["test.ts"],
   "exclude": ["node_modules", "cdk.out"]
 }
